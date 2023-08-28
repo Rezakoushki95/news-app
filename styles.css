@@ -1,0 +1,33 @@
+/* styles.css */
+
+/* Style for the container holding all the news articles */
+#news {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Style for each individual news article box */
+.article-box {
+    width: calc(20% - 20px); /* Five articles next to each other with 20px gap */
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.article-box img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.article-box h4 {
+    font-size: 18px;
+    margin: 0;
+    color: #333;
+}
+
+.article-box p {
+    font-size: 14px;
+    color: #666;
+}

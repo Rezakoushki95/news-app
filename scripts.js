@@ -17,6 +17,7 @@ function displayNews(articles) {
 
     for (const article of articles) {
         const articleDiv = document.createElement('div');
+        articleDiv.classList.add('article-box');
 
         //create an append a headline to the articleDiv
         const articleTitle = document.createElement('h4');
